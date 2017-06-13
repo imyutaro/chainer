@@ -11973,7 +11973,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#24494;&#20998;&#12398;&#24335;">&#24494;&#20998;&#12398;&#24335;<a class="anchor-link" href="#&#24494;&#20998;&#12398;&#24335;">&#182;</a></h3>$$
+<h4 id="&#24494;&#20998;&#12398;&#24335;">&#24494;&#20998;&#12398;&#24335;<a class="anchor-link" href="#&#24494;&#20998;&#12398;&#24335;">&#182;</a></h4>$$
 \frac{\partial z}{\partial x_1}=2(x_1-2x_2-1)\\
 \frac{\partial z}{\partial x_2}=-4(x_1-2x_2-1)+2x_3(x_2x_3-1)\\
 \frac{\partial z}{\partial x_3}=2x_3(x_2x_3-1)\\
@@ -12066,7 +12066,11 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#12539;$(\,\cos-(x)\,)&#8217;-=--\sin(x)$-&#12434;&#30906;&#12363;&#12417;&#12390;&#12415;&#12427;">&#12539;$(\,\cos (x)\,)&#8217; = -\sin(x)$ &#12434;&#30906;&#12363;&#12417;&#12390;&#12415;&#12427;<a class="anchor-link" href="#&#12539;$(\,\cos-(x)\,)&#8217;-=--\sin(x)$-&#12434;&#30906;&#12363;&#12417;&#12390;&#12415;&#12427;">&#182;</a></h3>
+<p><br></p>
+<ul>
+<li>$(\,\cos (x)\,)’ = -\sin(x)$ を確かめてみる</li>
+</ul>
+
 </div>
 </div>
 </div>
@@ -12171,7 +12175,11 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#12539;&#12471;&#12464;&#12514;&#12452;&#12489;&#38306;&#25968;&#12395;&#12388;&#12356;&#12390;&#12418;$(\;f'(x)=(1-f(x))\;f(x)\;)$&#12434;&#30906;&#12363;&#12417;&#12390;&#12415;&#12427;">&#12539;&#12471;&#12464;&#12514;&#12452;&#12489;&#38306;&#25968;&#12395;&#12388;&#12356;&#12390;&#12418;$(\;f'(x)=(1-f(x))\;f(x)\;)$&#12434;&#30906;&#12363;&#12417;&#12390;&#12415;&#12427;<a class="anchor-link" href="#&#12539;&#12471;&#12464;&#12514;&#12452;&#12489;&#38306;&#25968;&#12395;&#12388;&#12356;&#12390;&#12418;$(\;f'(x)=(1-f(x))\;f(x)\;)$&#12434;&#30906;&#12363;&#12417;&#12390;&#12415;&#12427;">&#182;</a></h3>
+<p><br></p>
+<ul>
+<li>シグモイド関数についても$(\;f'(x)=(1-f(x))\;f(x)\;)$を確かめてみる</li>
+</ul>
+
 </div>
 </div>
 </div>
@@ -12245,7 +12253,7 @@ $$</p>
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">F</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">))</span><span class="o">*</span><span class="n">F</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">data</span> <span class="c1"># </span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">((</span><span class="mi">1</span><span class="o">-</span><span class="n">F</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">))</span><span class="o">*</span><span class="n">F</span><span class="o">.</span><span class="n">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">))</span><span class="o">.</span><span class="n">data</span> <span class="c1"># f&#39;(x)=(1-f(x))*f(x)</span>
 </pre></div>
 
 </div>
@@ -12262,7 +12270,7 @@ $$</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>variable([ 0.23500371])</pre>
+<pre>array([ 0.23500371], dtype=float32)</pre>
 </div>
 
 </div>
@@ -12276,7 +12284,11 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#12539;&#22793;&#25968;&#12364;&#22810;&#27425;&#20803;&#12391;&#12354;&#12427;&#22580;&#21512;&#12399;&#38306;&#25968;&#12398;&#20670;&#12365;&#12398;&#27425;&#20803;&#12434;&#12354;&#12425;&#12363;&#12376;&#12417;&#25945;&#12360;&#12390;&#12362;&#12367;&#24517;&#35201;&#12364;&#12354;&#12427;">&#12539;&#22793;&#25968;&#12364;&#22810;&#27425;&#20803;&#12391;&#12354;&#12427;&#22580;&#21512;&#12399;&#38306;&#25968;&#12398;&#20670;&#12365;&#12398;&#27425;&#20803;&#12434;&#12354;&#12425;&#12363;&#12376;&#12417;&#25945;&#12360;&#12390;&#12362;&#12367;&#24517;&#35201;&#12364;&#12354;&#12427;<a class="anchor-link" href="#&#12539;&#22793;&#25968;&#12364;&#22810;&#27425;&#20803;&#12391;&#12354;&#12427;&#22580;&#21512;&#12399;&#38306;&#25968;&#12398;&#20670;&#12365;&#12398;&#27425;&#20803;&#12434;&#12354;&#12425;&#12363;&#12376;&#12417;&#25945;&#12360;&#12390;&#12362;&#12367;&#24517;&#35201;&#12364;&#12354;&#12427;">&#182;</a></h3>
+<p><br></p>
+<ul>
+<li>変数が多次元である場合は関数の傾きの次元をあらかじめ教えておく必要がある</li>
+</ul>
+
 </div>
 </div>
 </div>
@@ -12320,6 +12332,7 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><br></p>
 <h2 id="3.2.3-links">3.2.3 links<a class="anchor-link" href="#3.2.3-links">&#182;</a></h2>
 </div>
 </div>
@@ -12336,6 +12349,19 @@ $$</p>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>パラメータはWとb</li>
+<li>最初にWには適当な値がbには0が入っている</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -12359,10 +12385,10 @@ $$</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 0.11289683, -0.49503127,  0.74731165],
-       [-0.6424762 , -0.34562913,  0.72659367],
-       [-1.11047709, -0.3688055 ,  0.08742196],
-       [-0.48163864,  0.28419715, -0.21082738]], dtype=float32)</pre>
+<pre>array([[-0.73528326, -0.42754531, -0.79784918],
+       [-0.3103115 ,  0.74695861, -0.09231593],
+       [ 0.22093138, -0.93409973,  0.30161089],
+       [ 0.65773547, -0.11706574, -0.79936308]], dtype=float32)</pre>
 </div>
 
 </div>
@@ -12401,6 +12427,20 @@ $$</p>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br></p>
+<ul>
+<li>入力はバッチ（データの集合）</li>
+<li>下の例は2つの3次元のベクトルを作って$\;h\;$に与えている</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -12458,8 +12498,8 @@ $$</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 0.99959207,  1.10755825, -0.19396158, -0.13745761],
-       [ 2.09512377,  0.32302326, -4.36954355, -1.36226416]], dtype=float32)</pre>
+<pre>array([[-2.02324367,  0.56232679, -0.33087796, -1.71579194],
+       [-7.90527678,  1.59532034, -1.56555033, -2.49187183]], dtype=float32)</pre>
 </div>
 
 </div>
@@ -12467,6 +12507,16 @@ $$</p>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>正しく計算できているのかの確認</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -12492,8 +12542,8 @@ $$</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 0.99959207,  1.10755825, -0.19396158, -0.13745761],
-       [ 2.09512377,  0.32302326, -4.36954355, -1.36226416]], dtype=float32)</pre>
+<pre>array([[-2.02324367,  0.56232679, -0.33087796, -1.71579194],
+       [-7.90527678,  1.59532034, -1.56555033, -2.49187183]], dtype=float32)</pre>
 </div>
 
 </div>
@@ -12737,213 +12787,213 @@ $$</p>
 <pre>&lt;&lt;AND: Before learning&gt;&gt;
 model says:
   0 &amp; 0 = 0 (zero:0.000000 one:0.000000)
-  0 &amp; 1 = 0 (zero:0.424283 one:-0.337806)
-  1 &amp; 0 = 0 (zero:0.458160 one:0.284455)
-  1 &amp; 1 = 0 (zero:0.882443 one:-0.053351)
+  0 &amp; 1 = 1 (zero:-0.066182 one:-0.012870)
+  1 &amp; 0 = 0 (zero:1.208197 one:0.064374)
+  1 &amp; 1 = 0 (zero:1.142015 one:0.051505)
 
 &lt;&lt;AND: After Learning&gt;&gt;
 epoch 0
 model says:
-  0 &amp; 0 = 0 (zero:0.423546 one:-0.423546)
-  0 &amp; 1 = 0 (zero:0.470363 one:-0.383887)
-  1 &amp; 0 = 0 (zero:0.611051 one:0.131564)
-  1 &amp; 1 = 0 (zero:0.657868 one:0.171223)
+  0 &amp; 0 = 0 (zero:0.408207 one:-0.408207)
+  0 &amp; 1 = 0 (zero:0.107663 one:-0.186715)
+  1 &amp; 0 = 0 (zero:1.164342 one:0.108229)
+  1 &amp; 1 = 0 (zero:0.863798 one:0.329722)
 epoch 1
 model says:
-  0 &amp; 0 = 0 (zero:0.735292 one:-0.735293)
-  0 &amp; 1 = 0 (zero:0.496889 one:-0.410413)
-  1 &amp; 0 = 0 (zero:0.703085 one:0.039529)
-  1 &amp; 1 = 0 (zero:0.464682 one:0.364409)
+  0 &amp; 0 = 0 (zero:0.721266 one:-0.721266)
+  0 &amp; 1 = 0 (zero:0.230054 one:-0.309105)
+  1 &amp; 0 = 0 (zero:1.150641 one:0.121930)
+  1 &amp; 1 = 0 (zero:0.659429 one:0.534091)
 epoch 2
 model says:
-  0 &amp; 0 = 0 (zero:0.990472 one:-0.990472)
-  0 &amp; 1 = 0 (zero:0.535466 one:-0.448990)
-  1 &amp; 0 = 0 (zero:0.782519 one:-0.039904)
-  1 &amp; 1 = 1 (zero:0.327512 one:0.501579)
+  0 &amp; 0 = 0 (zero:0.978403 one:-0.978403)
+  0 &amp; 1 = 0 (zero:0.330337 one:-0.409387)
+  1 &amp; 0 = 0 (zero:1.165801 one:0.106769)
+  1 &amp; 1 = 1 (zero:0.517734 one:0.675785)
 epoch 3
 model says:
-  0 &amp; 0 = 0 (zero:1.206921 one:-1.206921)
-  0 &amp; 1 = 0 (zero:0.578972 one:-0.492496)
-  1 &amp; 0 = 0 (zero:0.851885 one:-0.109270)
-  1 &amp; 1 = 1 (zero:0.223936 one:0.605155)
+  0 &amp; 0 = 0 (zero:1.196409 one:-1.196409)
+  0 &amp; 1 = 0 (zero:0.413265 one:-0.492316)
+  1 &amp; 0 = 0 (zero:1.195000 one:0.077570)
+  1 &amp; 1 = 1 (zero:0.411856 one:0.781663)
 epoch 4
 model says:
-  0 &amp; 0 = 0 (zero:1.395321 one:-1.395320)
-  0 &amp; 1 = 0 (zero:0.623267 one:-0.536791)
-  1 &amp; 0 = 0 (zero:0.912856 one:-0.170241)
-  1 &amp; 1 = 1 (zero:0.140803 one:0.688289)
+  0 &amp; 0 = 0 (zero:1.386011 one:-1.386011)
+  0 &amp; 1 = 0 (zero:0.483072 one:-0.562123)
+  1 &amp; 0 = 0 (zero:1.230364 one:0.042206)
+  1 &amp; 1 = 1 (zero:0.327425 one:0.866095)
 
 ---------
 
 &lt;&lt;OR: Before learning&gt;&gt;
 model says:
   0 &amp; 0 = 0 (zero:0.000000 one:0.000000)
-  0 &amp; 1 = 0 (zero:0.639081 one:0.615703)
-  1 &amp; 0 = 0 (zero:0.351212 one:-0.503866)
-  1 &amp; 1 = 0 (zero:0.990293 one:0.111836)
+  0 &amp; 1 = 1 (zero:0.289356 one:0.912261)
+  1 &amp; 0 = 0 (zero:0.259586 one:-0.372498)
+  1 &amp; 1 = 0 (zero:0.548942 one:0.539763)
 
 &lt;&lt;OR: After Learning&gt;&gt;
 epoch 0
 model says:
-  0 &amp; 0 = 1 (zero:-0.294328 one:0.294328)
-  0 &amp; 1 = 1 (zero:-0.180886 one:1.435670)
-  1 &amp; 0 = 1 (zero:-0.607865 one:0.455211)
-  1 &amp; 1 = 1 (zero:-0.494423 one:1.596553)
+  0 &amp; 0 = 1 (zero:-0.202974 one:0.202974)
+  0 &amp; 1 = 1 (zero:-0.305147 one:1.506764)
+  1 &amp; 0 = 1 (zero:-0.538452 one:0.425540)
+  1 &amp; 1 = 1 (zero:-0.640625 one:1.729330)
 epoch 1
 model says:
-  0 &amp; 0 = 1 (zero:-0.142123 one:0.142123)
-  0 &amp; 1 = 1 (zero:-0.259437 one:1.514221)
-  1 &amp; 0 = 1 (zero:-0.758854 one:0.606200)
-  1 &amp; 1 = 1 (zero:-0.876167 one:1.978298)
+  0 &amp; 0 = 1 (zero:-0.068421 one:0.068421)
+  0 &amp; 1 = 1 (zero:-0.363900 one:1.565517)
+  1 &amp; 0 = 1 (zero:-0.705948 one:0.593036)
+  1 &amp; 1 = 1 (zero:-1.001427 one:2.090132)
 epoch 2
 model says:
-  0 &amp; 0 = 0 (zero:0.012743 one:-0.012743)
-  0 &amp; 1 = 1 (zero:-0.289616 one:1.544402)
-  1 &amp; 0 = 1 (zero:-0.838135 one:0.685480)
-  1 &amp; 1 = 1 (zero:-1.140494 one:2.242625)
+  0 &amp; 0 = 0 (zero:0.071105 one:-0.071105)
+  0 &amp; 1 = 1 (zero:-0.384123 one:1.585740)
+  1 &amp; 0 = 1 (zero:-0.800138 one:0.687226)
+  1 &amp; 1 = 1 (zero:-1.255366 one:2.344071)
 epoch 3
 model says:
-  0 &amp; 0 = 0 (zero:0.141778 one:-0.141778)
-  0 &amp; 1 = 1 (zero:-0.322136 one:1.576921)
-  1 &amp; 0 = 1 (zero:-0.905648 one:0.752994)
-  1 &amp; 1 = 1 (zero:-1.369562 one:2.471693)
+  0 &amp; 0 = 0 (zero:0.189480 one:-0.189480)
+  0 &amp; 1 = 1 (zero:-0.408202 one:1.609819)
+  1 &amp; 0 = 1 (zero:-0.877178 one:0.764266)
+  1 &amp; 1 = 1 (zero:-1.474860 one:2.563565)
 epoch 4
 model says:
-  0 &amp; 0 = 0 (zero:0.248370 one:-0.248370)
-  0 &amp; 1 = 1 (zero:-0.359775 one:1.614560)
-  1 &amp; 0 = 1 (zero:-0.968675 one:0.816020)
-  1 &amp; 1 = 1 (zero:-1.576820 one:2.678949)
+  0 &amp; 0 = 0 (zero:0.288613 one:-0.288613)
+  0 &amp; 1 = 1 (zero:-0.438477 one:1.640094)
+  1 &amp; 0 = 1 (zero:-0.946145 one:0.833233)
+  1 &amp; 1 = 1 (zero:-1.673234 one:2.761940)
 
 ---------
 
 &lt;&lt;XOR: Before learning&gt;&gt;
 model says:
   0 &amp; 0 = 0 (zero:0.000000 one:0.000000)
-  0 &amp; 1 = 0 (zero:0.931464 one:-0.083404)
-  1 &amp; 0 = 1 (zero:-0.199128 one:1.208996)
-  1 &amp; 1 = 1 (zero:0.732335 one:1.125592)
+  0 &amp; 1 = 1 (zero:-0.498389 one:-0.317596)
+  1 &amp; 0 = 0 (zero:-0.865786 one:-1.011350)
+  1 &amp; 1 = 1 (zero:-1.364175 one:-1.328946)
 
 &lt;&lt;XOR: After Learning&gt;&gt;
 epoch 0
 model says:
-  0 &amp; 0 = 0 (zero:0.047419 one:-0.047419)
-  0 &amp; 1 = 0 (zero:0.810465 one:0.037594)
-  1 &amp; 0 = 1 (zero:0.132069 one:0.877799)
-  1 &amp; 1 = 1 (zero:0.895116 one:0.962812)
+  0 &amp; 0 = 0 (zero:0.004451 one:-0.004451)
+  0 &amp; 1 = 1 (zero:-0.454872 one:-0.361113)
+  1 &amp; 0 = 0 (zero:-0.884676 one:-0.992460)
+  1 &amp; 1 = 0 (zero:-1.344000 one:-1.349121)
 epoch 1
 model says:
-  0 &amp; 0 = 0 (zero:0.035789 one:-0.035789)
-  0 &amp; 1 = 0 (zero:0.665834 one:0.182226)
-  1 &amp; 0 = 1 (zero:0.282205 one:0.727663)
-  1 &amp; 1 = 1 (zero:0.912250 one:0.945678)
+  0 &amp; 0 = 0 (zero:0.002125 one:-0.002125)
+  0 &amp; 1 = 1 (zero:-0.435859 one:-0.380126)
+  1 &amp; 0 = 0 (zero:-0.903464 one:-0.973672)
+  1 &amp; 1 = 0 (zero:-1.341448 one:-1.351673)
 epoch 2
 model says:
-  0 &amp; 0 = 0 (zero:0.024798 one:-0.024798)
-  0 &amp; 1 = 0 (zero:0.572034 one:0.276026)
-  1 &amp; 0 = 1 (zero:0.372203 one:0.637666)
-  1 &amp; 1 = 1 (zero:0.919439 one:0.938489)
+  0 &amp; 0 = 0 (zero:0.000201 one:-0.000201)
+  0 &amp; 1 = 1 (zero:-0.424699 one:-0.391287)
+  1 &amp; 0 = 0 (zero:-0.915186 one:-0.961950)
+  1 &amp; 1 = 0 (zero:-1.340086 one:-1.353036)
 epoch 3
 model says:
-  0 &amp; 0 = 0 (zero:0.016714 one:-0.016714)
-  0 &amp; 1 = 0 (zero:0.514332 one:0.333727)
-  1 &amp; 0 = 1 (zero:0.426997 one:0.582872)
-  1 &amp; 1 = 1 (zero:0.924616 one:0.933313)
+  0 &amp; 0 = 1 (zero:-0.001212 one:0.001212)
+  0 &amp; 1 = 1 (zero:-0.417995 one:-0.397990)
+  1 &amp; 0 = 0 (zero:-0.922330 one:-0.954806)
+  1 &amp; 1 = 0 (zero:-1.339113 one:-1.354008)
 epoch 4
 model says:
-  0 &amp; 0 = 0 (zero:0.010829 one:-0.010829)
-  0 &amp; 1 = 0 (zero:0.479132 one:0.368928)
-  1 &amp; 0 = 1 (zero:0.460152 one:0.549716)
-  1 &amp; 1 = 1 (zero:0.928455 one:0.929473)
+  0 &amp; 0 = 1 (zero:-0.002243 one:0.002243)
+  0 &amp; 1 = 1 (zero:-0.413968 one:-0.402017)
+  1 &amp; 0 = 0 (zero:-0.926681 one:-0.950455)
+  1 &amp; 1 = 0 (zero:-1.338407 one:-1.354715)
 epoch 5
 model says:
-  0 &amp; 0 = 0 (zero:0.006540 one:-0.006540)
-  0 &amp; 1 = 0 (zero:0.457691 one:0.390368)
-  1 &amp; 0 = 1 (zero:0.480134 one:0.529734)
-  1 &amp; 1 = 0 (zero:0.931285 one:0.926643)
+  0 &amp; 0 = 1 (zero:-0.002995 one:0.002995)
+  0 &amp; 1 = 1 (zero:-0.411552 one:-0.404433)
+  1 &amp; 0 = 0 (zero:-0.929335 one:-0.947801)
+  1 &amp; 1 = 0 (zero:-1.337892 one:-1.355229)
 epoch 6
 model says:
-  0 &amp; 0 = 0 (zero:0.003413 one:-0.003413)
-  0 &amp; 1 = 0 (zero:0.444629 one:0.403431)
-  1 &amp; 0 = 1 (zero:0.492146 one:0.517722)
-  1 &amp; 1 = 0 (zero:0.933362 one:0.924566)
+  0 &amp; 0 = 1 (zero:-0.003544 one:0.003544)
+  0 &amp; 1 = 1 (zero:-0.410105 one:-0.405880)
+  1 &amp; 0 = 0 (zero:-0.930956 one:-0.946180)
+  1 &amp; 1 = 0 (zero:-1.337517 one:-1.355604)
 epoch 7
 model says:
-  0 &amp; 0 = 0 (zero:0.001132 one:-0.001132)
-  0 &amp; 1 = 0 (zero:0.436662 one:0.411398)
-  1 &amp; 0 = 1 (zero:0.499352 one:0.510515)
-  1 &amp; 1 = 0 (zero:0.934883 one:0.923045)
+  0 &amp; 0 = 1 (zero:-0.003944 one:0.003944)
+  0 &amp; 1 = 1 (zero:-0.409241 one:-0.406744)
+  1 &amp; 0 = 0 (zero:-0.931947 one:-0.945189)
+  1 &amp; 1 = 0 (zero:-1.337245 one:-1.355877)
 epoch 8
 model says:
-  0 &amp; 0 = 1 (zero:-0.000533 one:0.000533)
-  0 &amp; 1 = 0 (zero:0.431796 one:0.416264)
-  1 &amp; 0 = 1 (zero:0.503667 one:0.506201)
-  1 &amp; 1 = 0 (zero:0.935995 one:0.921932)
+  0 &amp; 0 = 1 (zero:-0.004236 one:0.004236)
+  0 &amp; 1 = 1 (zero:-0.408726 one:-0.407259)
+  1 &amp; 0 = 0 (zero:-0.932555 one:-0.944580)
+  1 &amp; 1 = 0 (zero:-1.337046 one:-1.356076)
 epoch 9
 model says:
-  0 &amp; 0 = 1 (zero:-0.001747 one:0.001747)
-  0 &amp; 1 = 0 (zero:0.428819 one:0.419241)
-  1 &amp; 0 = 0 (zero:0.506243 one:0.503624)
-  1 &amp; 1 = 0 (zero:0.936809 one:0.921118)
+  0 &amp; 0 = 1 (zero:-0.004450 one:0.004450)
+  0 &amp; 1 = 1 (zero:-0.408421 one:-0.407564)
+  1 &amp; 0 = 0 (zero:-0.932929 one:-0.944206)
+  1 &amp; 1 = 0 (zero:-1.336901 one:-1.356220)
 epoch 10
 model says:
-  0 &amp; 0 = 1 (zero:-0.002633 one:0.002633)
-  0 &amp; 1 = 0 (zero:0.426993 one:0.421067)
-  1 &amp; 0 = 0 (zero:0.507778 one:0.502090)
-  1 &amp; 1 = 0 (zero:0.937404 one:0.920524)
+  0 &amp; 0 = 1 (zero:-0.004605 one:0.004605)
+  0 &amp; 1 = 1 (zero:-0.408240 one:-0.407745)
+  1 &amp; 0 = 0 (zero:-0.933160 one:-0.943976)
+  1 &amp; 1 = 0 (zero:-1.336795 one:-1.356326)
 epoch 11
 model says:
-  0 &amp; 0 = 1 (zero:-0.003280 one:0.003280)
-  0 &amp; 1 = 0 (zero:0.425870 one:0.422189)
-  1 &amp; 0 = 0 (zero:0.508688 one:0.501180)
-  1 &amp; 1 = 0 (zero:0.937838 one:0.920089)
+  0 &amp; 0 = 1 (zero:-0.004719 one:0.004719)
+  0 &amp; 1 = 1 (zero:-0.408134 one:-0.407851)
+  1 &amp; 0 = 0 (zero:-0.933303 one:-0.943833)
+  1 &amp; 1 = 0 (zero:-1.336718 one:-1.356403)
 epoch 12
 model says:
-  0 &amp; 0 = 1 (zero:-0.003752 one:0.003752)
-  0 &amp; 1 = 0 (zero:0.425178 one:0.422881)
-  1 &amp; 0 = 0 (zero:0.509225 one:0.500642)
-  1 &amp; 1 = 0 (zero:0.938155 one:0.919772)
+  0 &amp; 0 = 1 (zero:-0.004801 one:0.004802)
+  0 &amp; 1 = 1 (zero:-0.408072 one:-0.407913)
+  1 &amp; 0 = 0 (zero:-0.933391 one:-0.943745)
+  1 &amp; 1 = 0 (zero:-1.336662 one:-1.356459)
 epoch 13
 model says:
-  0 &amp; 0 = 1 (zero:-0.004096 one:0.004096)
-  0 &amp; 1 = 0 (zero:0.424750 one:0.423309)
-  1 &amp; 0 = 0 (zero:0.509541 one:0.500327)
-  1 &amp; 1 = 0 (zero:0.938387 one:0.919540)
+  0 &amp; 0 = 1 (zero:-0.004862 one:0.004862)
+  0 &amp; 1 = 1 (zero:-0.408036 one:-0.407949)
+  1 &amp; 0 = 0 (zero:-0.933447 one:-0.943689)
+  1 &amp; 1 = 0 (zero:-1.336621 one:-1.356500)
 epoch 14
 model says:
-  0 &amp; 0 = 1 (zero:-0.004347 one:0.004347)
-  0 &amp; 1 = 0 (zero:0.424484 one:0.423575)
-  1 &amp; 0 = 0 (zero:0.509725 one:0.500143)
-  1 &amp; 1 = 0 (zero:0.938556 one:0.919371)
+  0 &amp; 0 = 1 (zero:-0.004906 one:0.004906)
+  0 &amp; 1 = 1 (zero:-0.408016 one:-0.407969)
+  1 &amp; 0 = 0 (zero:-0.933481 one:-0.943655)
+  1 &amp; 1 = 0 (zero:-1.336591 one:-1.356530)
 epoch 15
 model says:
-  0 &amp; 0 = 1 (zero:-0.004530 one:0.004530)
-  0 &amp; 1 = 0 (zero:0.424318 one:0.423741)
-  1 &amp; 0 = 0 (zero:0.509831 one:0.500037)
-  1 &amp; 1 = 0 (zero:0.938680 one:0.919247)
+  0 &amp; 0 = 1 (zero:-0.004938 one:0.004938)
+  0 &amp; 1 = 1 (zero:-0.408004 one:-0.407981)
+  1 &amp; 0 = 0 (zero:-0.933503 one:-0.943633)
+  1 &amp; 1 = 0 (zero:-1.336569 one:-1.356552)
 epoch 16
 model says:
-  0 &amp; 0 = 1 (zero:-0.004664 one:0.004664)
-  0 &amp; 1 = 0 (zero:0.424214 one:0.423845)
-  1 &amp; 0 = 0 (zero:0.509892 one:0.499976)
-  1 &amp; 1 = 0 (zero:0.938770 one:0.919157)
+  0 &amp; 0 = 1 (zero:-0.004962 one:0.004962)
+  0 &amp; 1 = 1 (zero:-0.407998 one:-0.407987)
+  1 &amp; 0 = 0 (zero:-0.933517 one:-0.943619)
+  1 &amp; 1 = 0 (zero:-1.336553 one:-1.356568)
 epoch 17
 model says:
-  0 &amp; 0 = 1 (zero:-0.004762 one:0.004762)
-  0 &amp; 1 = 0 (zero:0.424149 one:0.423911)
-  1 &amp; 0 = 0 (zero:0.509926 one:0.499942)
-  1 &amp; 1 = 0 (zero:0.938836 one:0.919092)
+  0 &amp; 0 = 1 (zero:-0.004979 one:0.004979)
+  0 &amp; 1 = 1 (zero:-0.407995 one:-0.407990)
+  1 &amp; 0 = 0 (zero:-0.933525 one:-0.943610)
+  1 &amp; 1 = 0 (zero:-1.336541 one:-1.356579)
 epoch 18
 model says:
-  0 &amp; 0 = 1 (zero:-0.004833 one:0.004833)
-  0 &amp; 1 = 0 (zero:0.424107 one:0.423953)
-  1 &amp; 0 = 0 (zero:0.509944 one:0.499923)
-  1 &amp; 1 = 0 (zero:0.938884 one:0.919043)
+  0 &amp; 0 = 1 (zero:-0.004991 one:0.004991)
+  0 &amp; 1 = 1 (zero:-0.407993 one:-0.407992)
+  1 &amp; 0 = 0 (zero:-0.933531 one:-0.943604)
+  1 &amp; 1 = 0 (zero:-1.336533 one:-1.356587)
 epoch 19
 model says:
-  0 &amp; 0 = 1 (zero:-0.004885 one:0.004885)
-  0 &amp; 1 = 0 (zero:0.424080 one:0.423979)
-  1 &amp; 0 = 0 (zero:0.509953 one:0.499913)
-  1 &amp; 1 = 0 (zero:0.938919 one:0.919008)
+  0 &amp; 0 = 1 (zero:-0.005000 one:0.005001)
+  0 &amp; 1 = 0 (zero:-0.407992 one:-0.407993)
+  1 &amp; 0 = 0 (zero:-0.933534 one:-0.943600)
+  1 &amp; 1 = 0 (zero:-1.336526 one:-1.356594)
 </pre>
 </div>
 </div>
@@ -13055,7 +13105,7 @@ model says:
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&lt;&lt;AND: Before learning&gt;&gt;&#39;</span><span class="p">)</span>
 <span class="n">summarize</span><span class="p">(</span><span class="n">and_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">and_outputs</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&lt;&lt;AND: After Learning&gt;&gt;&#39;</span><span class="p">)</span>
-<span class="n">learning_looper</span><span class="p">(</span><span class="n">and_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">and_outputs</span><span class="p">,</span> <span class="n">epoch_size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">learning_looper</span><span class="p">(</span><span class="n">and_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">and_outputs</span><span class="p">,</span> <span class="n">epoch_size</span> <span class="o">=</span> <span class="mi">21</span><span class="p">)</span>
 
 <span class="c1">## OR Test --&gt; will learn successfully</span>
 <span class="n">or_model</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Classifier</span><span class="p">(</span><span class="n">NN2x2_2links</span><span class="p">())</span>
@@ -13064,7 +13114,7 @@ model says:
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">---------</span><span class="se">\n\n</span><span class="s1">&lt;&lt;OR: Before learning&gt;&gt;&#39;</span><span class="p">)</span>
 <span class="n">summarize</span><span class="p">(</span><span class="n">or_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">or_outputs</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&lt;&lt;OR: After Learning&gt;&gt;&#39;</span><span class="p">)</span>
-<span class="n">learning_looper</span><span class="p">(</span><span class="n">or_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">or_outputs</span><span class="p">,</span> <span class="n">epoch_size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">learning_looper</span><span class="p">(</span><span class="n">or_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">or_outputs</span><span class="p">,</span> <span class="n">epoch_size</span> <span class="o">=</span> <span class="mi">21</span><span class="p">)</span>
 
 <span class="c1">## XOR Test --&gt; will learn successfully</span>
 <span class="n">xor_model</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Classifier</span><span class="p">(</span><span class="n">NN2x2_2links</span><span class="p">())</span>
@@ -13074,7 +13124,7 @@ model says:
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">---------</span><span class="se">\n\n</span><span class="s1">&lt;&lt;XOR: Before learning&gt;&gt;&#39;</span><span class="p">)</span>
 <span class="n">summarize</span><span class="p">(</span><span class="n">xor_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">xor_outputs</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&lt;&lt;XOR: After Learning&gt;&gt;&#39;</span><span class="p">)</span>
-<span class="n">XOR_learning_looper</span><span class="p">(</span><span class="n">xor_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">xor_outputs</span><span class="p">,</span> <span class="n">epoch_size</span> <span class="o">=</span> <span class="mi">250</span><span class="p">)</span>
+<span class="n">XOR_learning_looper</span><span class="p">(</span><span class="n">xor_model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">xor_outputs</span><span class="p">,</span> <span class="n">epoch_size</span> <span class="o">=</span> <span class="mi">251</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13091,424 +13141,442 @@ model says:
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;&lt;AND: Before learning&gt;&gt;
 model says:
-  0 &amp; 0 = 1 (zero:0.401765 one:0.649262)
-  0 &amp; 1 = 1 (zero:0.380067 one:0.578002)
-  1 &amp; 0 = 1 (zero:0.493509 one:0.911745)
-  1 &amp; 1 = 1 (zero:0.473034 one:0.849616)
+  0 &amp; 0 = 1 (zero:-0.162511 one:0.435910)
+  0 &amp; 1 = 1 (zero:-0.104363 one:0.483511)
+  1 &amp; 0 = 1 (zero:-0.166075 one:0.447584)
+  1 &amp; 1 = 1 (zero:-0.108037 one:0.494357)
 
 &lt;&lt;AND: After Learning&gt;&gt;
 epoch 0
 model says:
-  0 &amp; 0 = 0 (zero:1.014720 one:0.019714)
-  0 &amp; 1 = 0 (zero:0.966758 one:-0.021451)
-  1 &amp; 0 = 0 (zero:1.147318 one:0.249479)
-  1 &amp; 1 = 0 (zero:1.101784 one:0.213763)
+  0 &amp; 0 = 0 (zero:0.597308 one:-0.324228)
+  0 &amp; 1 = 0 (zero:0.666943 one:-0.289303)
+  1 &amp; 0 = 0 (zero:0.598527 one:-0.318701)
+  1 &amp; 1 = 0 (zero:0.667791 one:-0.284180)
 epoch 1
 model says:
-  0 &amp; 0 = 0 (zero:1.079422 one:-0.050169)
-  0 &amp; 1 = 0 (zero:1.007484 one:-0.063671)
-  1 &amp; 0 = 0 (zero:1.178296 one:0.216747)
-  1 &amp; 1 = 0 (zero:1.107602 one:0.207219)
+  0 &amp; 0 = 0 (zero:0.656740 one:-0.383475)
+  0 &amp; 1 = 0 (zero:0.713885 one:-0.337530)
+  1 &amp; 0 = 0 (zero:0.656708 one:-0.378157)
+  1 &amp; 1 = 0 (zero:0.713576 one:-0.332610)
 epoch 2
 model says:
-  0 &amp; 0 = 0 (zero:1.120888 one:-0.099732)
-  0 &amp; 1 = 0 (zero:1.016914 one:-0.077663)
-  1 &amp; 0 = 0 (zero:1.174034 one:0.216279)
-  1 &amp; 1 = 0 (zero:1.069875 one:0.238784)
+  0 &amp; 0 = 0 (zero:0.667030 one:-0.394113)
+  0 &amp; 1 = 0 (zero:0.712052 one:-0.335423)
+  1 &amp; 0 = 0 (zero:0.666757 one:-0.387904)
+  1 &amp; 1 = 0 (zero:0.711512 one:-0.329749)
 epoch 3
 model says:
-  0 &amp; 0 = 0 (zero:1.170806 one:-0.160721)
-  0 &amp; 1 = 0 (zero:1.023126 one:-0.091726)
-  1 &amp; 0 = 0 (zero:1.167315 one:0.215926)
-  1 &amp; 1 = 0 (zero:1.019971 one:0.278778)
+  0 &amp; 0 = 0 (zero:0.672459 one:-0.400372)
+  0 &amp; 1 = 0 (zero:0.706007 one:-0.327360)
+  1 &amp; 0 = 0 (zero:0.672570 one:-0.391595)
+  1 &amp; 1 = 0 (zero:0.705813 one:-0.319492)
 epoch 4
 model says:
-  0 &amp; 0 = 0 (zero:1.233899 one:-0.237128)
-  0 &amp; 1 = 0 (zero:1.028932 one:-0.108203)
-  1 &amp; 0 = 0 (zero:1.162017 one:0.213176)
-  1 &amp; 1 = 0 (zero:0.962092 one:0.325568)
+  0 &amp; 0 = 0 (zero:0.677997 one:-0.407375)
+  0 &amp; 1 = 0 (zero:0.699537 one:-0.317382)
+  1 &amp; 0 = 0 (zero:0.678275 one:-0.393589)
+  1 &amp; 1 = 0 (zero:0.699510 one:-0.305290)
 epoch 5
 model says:
-  0 &amp; 0 = 0 (zero:1.311752 one:-0.329505)
-  0 &amp; 1 = 0 (zero:1.035764 one:-0.127687)
-  1 &amp; 0 = 0 (zero:1.160367 one:0.207418)
-  1 &amp; 1 = 0 (zero:0.899497 one:0.378245)
+  0 &amp; 0 = 0 (zero:0.685045 one:-0.416788)
+  0 &amp; 1 = 0 (zero:0.692777 one:-0.306033)
+  1 &amp; 0 = 0 (zero:0.684364 one:-0.394780)
+  1 &amp; 1 = 0 (zero:0.691968 one:-0.287182)
 epoch 6
 model says:
-  0 &amp; 0 = 0 (zero:1.404381 one:-0.436897)
-  0 &amp; 1 = 0 (zero:1.044791 one:-0.150572)
-  1 &amp; 0 = 0 (zero:1.164320 one:0.197834)
-  1 &amp; 1 = 0 (zero:0.834707 one:0.435395)
+  0 &amp; 0 = 0 (zero:0.694689 one:-0.430062)
+  0 &amp; 1 = 0 (zero:0.685559 one:-0.293694)
+  1 &amp; 0 = 0 (zero:0.690946 one:-0.395844)
+  1 &amp; 1 = 0 (zero:0.682274 one:-0.265145)
 epoch 7
 model says:
-  0 &amp; 0 = 0 (zero:1.510620 one:-0.557460)
-  0 &amp; 1 = 0 (zero:1.056769 one:-0.177068)
-  1 &amp; 0 = 0 (zero:1.175350 one:0.183316)
-  1 &amp; 1 = 0 (zero:0.769050 one:0.495665)
+  0 &amp; 0 = 0 (zero:0.708005 one:-0.448717)
+  0 &amp; 1 = 0 (zero:0.677727 one:-0.280879)
+  1 &amp; 0 = 0 (zero:0.698070 one:-0.397544)
+  1 &amp; 1 = 0 (zero:0.669585 one:-0.239360)
 epoch 8
 model says:
-  0 &amp; 0 = 0 (zero:1.628473 one:-0.688851)
-  0 &amp; 1 = 0 (zero:1.072079 one:-0.207174)
-  1 &amp; 0 = 0 (zero:1.194289 one:0.162746)
-  1 &amp; 1 = 0 (zero:0.703019 one:0.558006)
+  0 &amp; 0 = 0 (zero:0.726079 one:-0.474299)
+  0 &amp; 1 = 0 (zero:0.669182 one:-0.268204)
+  1 &amp; 0 = 0 (zero:0.705791 one:-0.400698)
+  1 &amp; 1 = 0 (zero:0.653166 one:-0.210086)
 epoch 9
 model says:
-  0 &amp; 0 = 0 (zero:1.755397 one:-0.828439)
-  0 &amp; 1 = 0 (zero:1.090840 one:-0.240700)
-  1 &amp; 0 = 0 (zero:1.221222 one:0.135373)
-  1 &amp; 1 = 0 (zero:0.636748 one:0.621658)
+  0 &amp; 0 = 0 (zero:0.750017 one:-0.508305)
+  0 &amp; 1 = 0 (zero:0.659918 one:-0.256337)
+  1 &amp; 0 = 0 (zero:0.714202 one:-0.406104)
+  1 &amp; 1 = 0 (zero:0.632346 one:-0.177455)
 epoch 10
 model says:
-  0 &amp; 0 = 0 (zero:1.888592 one:-0.973481)
-  0 &amp; 1 = 0 (zero:1.113025 one:-0.277335)
-  1 &amp; 0 = 0 (zero:1.255479 one:0.101054)
-  1 &amp; 1 = 1 (zero:0.570295 one:0.686063)
+  0 &amp; 0 = 0 (zero:0.780957 one:-0.552111)
+  0 &amp; 1 = 0 (zero:0.650099 one:-0.246024)
+  1 &amp; 0 = 0 (zero:0.723470 one:-0.414457)
+  1 &amp; 1 = 0 (zero:0.606475 one:-0.141341)
 epoch 11
 model says:
-  0 &amp; 0 = 0 (zero:2.025283 one:-1.121297)
-  0 &amp; 1 = 0 (zero:1.138560 one:-0.316723)
-  1 &amp; 0 = 0 (zero:1.295810 one:0.060277)
-  1 &amp; 1 = 1 (zero:0.503773 one:0.750767)
+  0 &amp; 0 = 0 (zero:0.820041 one:-0.606866)
+  0 &amp; 1 = 0 (zero:0.640188 one:-0.238185)
+  1 &amp; 0 = 0 (zero:0.733842 one:-0.426289)
+  1 &amp; 1 = 0 (zero:0.574927 one:-0.101368)
 epoch 12
 model says:
-  0 &amp; 0 = 0 (zero:2.162930 one:-1.269410)
-  0 &amp; 1 = 0 (zero:1.167357 one:-0.358504)
-  1 &amp; 0 = 0 (zero:1.340673 one:0.014000)
-  1 &amp; 1 = 1 (zero:0.437407 one:0.815361)
+  0 &amp; 0 = 0 (zero:0.868284 one:-0.673322)
+  0 &amp; 1 = 0 (zero:0.631084 one:-0.234062)
+  1 &amp; 0 = 0 (zero:0.745601 one:-0.441899)
+  1 &amp; 1 = 0 (zero:0.537187 one:-0.057071)
 epoch 13
 model says:
-  0 &amp; 0 = 0 (zero:2.299357 one:-1.415662)
-  0 &amp; 1 = 0 (zero:1.199296 one:-0.402304)
-  1 &amp; 0 = 0 (zero:1.388530 one:-0.036574)
-  1 &amp; 1 = 1 (zero:0.371518 one:0.879464)
+  0 &amp; 0 = 0 (zero:0.926348 one:-0.751604)
+  0 &amp; 1 = 0 (zero:0.624198 one:-0.235296)
+  1 &amp; 0 = 0 (zero:0.758972 one:-0.461289)
+  1 &amp; 1 = 0 (zero:0.492995 one:-0.008112)
 epoch 14
 model says:
-  0 &amp; 0 = 0 (zero:2.432799 one:-1.558263)
-  0 &amp; 1 = 0 (zero:1.234173 one:-0.447717)
-  1 &amp; 0 = 0 (zero:1.438042 one:-0.090204)
-  1 &amp; 1 = 1 (zero:0.306480 one:0.942727)
+  0 &amp; 0 = 0 (zero:0.994284 one:-0.841017)
+  0 &amp; 1 = 0 (zero:0.621393 one:-0.243852)
+  1 &amp; 0 = 0 (zero:0.774013 one:-0.484099)
+  1 &amp; 1 = 0 (zero:0.442458 one:0.045547)
 epoch 15
 model says:
-  0 &amp; 0 = 0 (zero:2.561891 one:-1.695818)
-  0 &amp; 1 = 0 (zero:1.271680 one:-0.494305)
-  1 &amp; 0 = 0 (zero:1.488152 one:-0.145755)
-  1 &amp; 1 = 1 (zero:0.242662 one:1.004835)
+  0 &amp; 0 = 0 (zero:1.071375 one:-0.939989)
+  0 &amp; 1 = 0 (zero:0.624718 one:-0.261682)
+  1 &amp; 0 = 0 (zero:0.790568 one:-0.509647)
+  1 &amp; 1 = 0 (zero:0.386069 one:0.103623)
 epoch 16
 model says:
-  0 &amp; 0 = 0 (zero:2.685651 one:-1.827320)
-  0 &amp; 1 = 0 (zero:1.311401 one:-0.541606)
-  1 &amp; 0 = 0 (zero:1.538080 one:-0.202249)
-  1 &amp; 1 = 1 (zero:0.180388 one:1.065537)
+  0 &amp; 0 = 0 (zero:1.156189 one:-1.046242)
+  0 &amp; 1 = 0 (zero:0.635946 one:-0.290166)
+  1 &amp; 0 = 0 (zero:0.808342 one:-0.537096)
+  1 &amp; 1 = 0 (zero:0.324629 one:0.165598)
 epoch 17
 model says:
-  0 &amp; 0 = 0 (zero:2.803432 one:-1.952124)
-  0 &amp; 1 = 0 (zero:1.352851 one:-0.589168)
-  1 &amp; 0 = 0 (zero:1.587279 one:-0.258902)
-  1 &amp; 1 = 1 (zero:0.119911 one:1.124629)
+  0 &amp; 0 = 0 (zero:1.246846 one:-1.157172)
+  0 &amp; 1 = 0 (zero:0.656070 one:-0.329553)
+  1 &amp; 0 = 0 (zero:0.827135 one:-0.565779)
+  1 &amp; 1 = 0 (zero:0.259144 one:0.230828)
 epoch 18
 model says:
-  0 &amp; 0 = 0 (zero:2.914875 one:-2.069901)
-  0 &amp; 1 = 0 (zero:1.395510 one:-0.636577)
-  1 &amp; 0 = 0 (zero:1.635375 one:-0.315111)
-  1 &amp; 1 = 1 (zero:0.061413 one:1.181952)
+  0 &amp; 0 = 0 (zero:1.341384 one:-1.270286)
+  0 &amp; 1 = 0 (zero:0.684983 one:-0.378707)
+  1 &amp; 0 = 0 (zero:0.847087 one:-0.595502)
+  1 &amp; 1 = 1 (zero:0.190763 one:0.298565)
 epoch 19
 model says:
-  0 &amp; 0 = 0 (zero:3.019858 one:-2.180572)
-  0 &amp; 1 = 0 (zero:1.438877 one:-0.683473)
-  1 &amp; 0 = 0 (zero:1.682132 one:-0.370425)
-  1 &amp; 1 = 1 (zero:0.005006 one:1.237395)
+  0 &amp; 0 = 0 (zero:1.438046 one:-1.383540)
+  0 &amp; 1 = 0 (zero:0.721529 one:-0.435379)
+  1 &amp; 0 = 0 (zero:0.868740 one:-0.626640)
+  1 &amp; 1 = 1 (zero:0.120730 one:0.367923)
+epoch 20
+model says:
+  0 &amp; 0 = 0 (zero:1.535376 one:-1.495413)
+  0 &amp; 1 = 0 (zero:0.763903 one:-0.496851)
+  1 &amp; 0 = 0 (zero:0.892840 one:-0.659882)
+  1 &amp; 1 = 1 (zero:0.050280 one:0.437920)
 
 ---------
 
 &lt;&lt;OR: Before learning&gt;&gt;
 model says:
-  0 &amp; 0 = 0 (zero:-0.008040 one:-0.380059)
-  0 &amp; 1 = 0 (zero:-0.055802 one:-0.346955)
-  1 &amp; 0 = 0 (zero:-0.002997 one:-0.524380)
-  1 &amp; 1 = 0 (zero:-0.041676 one:-0.499077)
+  0 &amp; 0 = 1 (zero:0.299985 one:0.395333)
+  0 &amp; 1 = 1 (zero:0.211272 one:0.223129)
+  1 &amp; 0 = 1 (zero:0.197522 one:0.256770)
+  1 &amp; 1 = 0 (zero:0.120961 one:0.105316)
 
 &lt;&lt;OR: After Learning&gt;&gt;
 epoch 0
 model says:
-  0 &amp; 0 = 1 (zero:-0.639148 one:0.278241)
-  0 &amp; 1 = 1 (zero:-0.793458 one:0.478620)
-  1 &amp; 0 = 1 (zero:-0.774735 one:0.330875)
-  1 &amp; 1 = 1 (zero:-0.887528 one:0.478554)
+  0 &amp; 0 = 1 (zero:-0.151866 one:0.866062)
+  0 &amp; 1 = 1 (zero:-0.241218 one:0.737682)
+  1 &amp; 0 = 1 (zero:-0.212963 one:0.723605)
+  1 &amp; 1 = 1 (zero:-0.294743 one:0.607515)
 epoch 1
 model says:
-  0 &amp; 0 = 1 (zero:-0.609537 one:0.236387)
-  0 &amp; 1 = 1 (zero:-0.823141 one:0.534226)
-  1 &amp; 0 = 1 (zero:-0.807606 one:0.391215)
-  1 &amp; 1 = 1 (zero:-0.956498 one:0.609348)
+  0 &amp; 0 = 1 (zero:-0.186885 one:0.901016)
+  0 &amp; 1 = 1 (zero:-0.272245 one:0.795946)
+  1 &amp; 0 = 1 (zero:-0.247809 one:0.783602)
+  1 &amp; 1 = 1 (zero:-0.327346 one:0.686457)
 epoch 2
 model says:
-  0 &amp; 0 = 1 (zero:-0.541177 one:0.153955)
-  0 &amp; 1 = 1 (zero:-0.827029 one:0.560481)
-  1 &amp; 0 = 1 (zero:-0.811139 one:0.419744)
-  1 &amp; 1 = 1 (zero:-1.002427 one:0.713351)
+  0 &amp; 0 = 1 (zero:-0.185003 one:0.898322)
+  0 &amp; 1 = 1 (zero:-0.267080 one:0.807382)
+  1 &amp; 0 = 1 (zero:-0.249872 one:0.801097)
+  1 &amp; 1 = 1 (zero:-0.327076 one:0.715899)
 epoch 3
 model says:
-  0 &amp; 0 = 1 (zero:-0.461152 one:0.059331)
-  0 &amp; 1 = 1 (zero:-0.836858 one:0.591170)
-  1 &amp; 0 = 1 (zero:-0.819128 one:0.452257)
-  1 &amp; 1 = 1 (zero:-1.061262 one:0.828010)
+  0 &amp; 0 = 1 (zero:-0.180012 one:0.892779)
+  0 &amp; 1 = 1 (zero:-0.261306 one:0.809571)
+  1 &amp; 0 = 1 (zero:-0.251076 one:0.809730)
+  1 &amp; 1 = 1 (zero:-0.327841 one:0.731279)
 epoch 4
 model says:
-  0 &amp; 0 = 1 (zero:-0.372469 one:-0.044370)
-  0 &amp; 1 = 1 (zero:-0.855829 one:0.629340)
-  1 &amp; 0 = 1 (zero:-0.835737 one:0.492649)
-  1 &amp; 1 = 1 (zero:-1.135949 one:0.954824)
+  0 &amp; 0 = 1 (zero:-0.174610 one:0.887010)
+  0 &amp; 1 = 1 (zero:-0.258788 one:0.806690)
+  1 &amp; 0 = 1 (zero:-0.255079 one:0.813436)
+  1 &amp; 1 = 1 (zero:-0.334484 one:0.737632)
 epoch 5
 model says:
-  0 &amp; 0 = 1 (zero:-0.278013 one:-0.154072)
-  0 &amp; 1 = 1 (zero:-0.884677 one:0.675515)
-  1 &amp; 0 = 1 (zero:-0.862431 one:0.541934)
-  1 &amp; 1 = 1 (zero:-1.224844 one:1.090766)
+  0 &amp; 0 = 1 (zero:-0.168060 one:0.880299)
+  0 &amp; 1 = 1 (zero:-0.259899 one:0.799204)
+  1 &amp; 0 = 1 (zero:-0.262361 one:0.812865)
+  1 &amp; 1 = 1 (zero:-0.348455 one:0.736627)
 epoch 6
 model says:
-  0 &amp; 0 = 0 (zero:-0.181084 one:-0.266213)
-  0 &amp; 1 = 1 (zero:-0.922988 one:0.729201)
-  1 &amp; 0 = 1 (zero:-0.899204 one:0.599718)
-  1 &amp; 1 = 1 (zero:-1.324075 one:1.231185)
+  0 &amp; 0 = 1 (zero:-0.159145 one:0.871627)
+  0 &amp; 1 = 1 (zero:-0.264732 one:0.787215)
+  1 &amp; 0 = 1 (zero:-0.273071 one:0.808356)
+  1 &amp; 1 = 1 (zero:-0.370807 one:0.729721)
 epoch 7
 model says:
-  0 &amp; 0 = 0 (zero:-0.084611 one:-0.377591)
-  0 &amp; 1 = 1 (zero:-0.969298 one:0.788994)
-  1 &amp; 0 = 1 (zero:-0.944685 one:0.664382)
-  1 &amp; 1 = 1 (zero:-1.428909 one:1.371253)
+  0 &amp; 0 = 1 (zero:-0.146343 one:0.859928)
+  0 &amp; 1 = 1 (zero:-0.273412 one:0.770980)
+  1 &amp; 0 = 1 (zero:-0.287278 one:0.800380)
+  1 &amp; 1 = 1 (zero:-0.402452 one:0.718770)
 epoch 8
 model says:
-  0 &amp; 0 = 0 (zero:0.009226 one:-0.485780)
-  0 &amp; 1 = 1 (zero:-1.021488 one:0.852939)
-  1 &amp; 0 = 1 (zero:-0.996635 one:0.733614)
-  1 &amp; 1 = 1 (zero:-1.534981 one:1.507032)
+  0 &amp; 0 = 1 (zero:-0.127734 one:0.844104)
+  0 &amp; 1 = 1 (zero:-0.286046 one:0.751164)
+  1 &amp; 0 = 1 (zero:-0.304889 one:0.789723)
+  1 &amp; 1 = 1 (zero:-0.443927 one:0.706308)
 epoch 9
 model says:
-  0 &amp; 0 = 0 (zero:0.099002 one:-0.589167)
-  0 &amp; 1 = 1 (zero:-1.077307 one:0.918995)
-  1 &amp; 0 = 1 (zero:-1.052622 one:0.805033)
-  1 &amp; 1 = 1 (zero:-1.638985 one:1.635906)
+  0 &amp; 0 = 1 (zero:-0.100941 one:0.823080)
+  0 &amp; 1 = 1 (zero:-0.302603 one:0.729061)
+  1 &amp; 0 = 1 (zero:-0.325530 one:0.777619)
+  1 &amp; 1 = 1 (zero:-0.495048 one:0.695575)
 epoch 10
 model says:
-  0 &amp; 0 = 0 (zero:0.183911 one:-0.686823)
-  0 &amp; 1 = 1 (zero:-1.134757 one:0.985385)
-  1 &amp; 0 = 1 (zero:-1.110479 one:0.876619)
-  1 &amp; 1 = 1 (zero:-1.738779 one:1.756499)
+  0 &amp; 0 = 1 (zero:-0.063268 one:0.795917)
+  0 &amp; 1 = 1 (zero:-0.322878 one:0.706689)
+  1 &amp; 0 = 1 (zero:-0.348537 one:0.765747)
+  1 &amp; 1 = 1 (zero:-0.554754 one:0.690174)
 epoch 11
 model says:
-  0 &amp; 0 = 0 (zero:0.263610 one:-0.778342)
-  0 &amp; 1 = 1 (zero:-1.192278 one:1.050758)
-  1 &amp; 0 = 1 (zero:-1.168529 one:0.946879)
-  1 &amp; 1 = 1 (zero:-1.833193 one:1.868358)
+  0 &amp; 0 = 1 (zero:-0.012073 one:0.761886)
+  0 &amp; 1 = 1 (zero:-0.346647 one:0.686628)
+  1 &amp; 0 = 1 (zero:-0.373192 one:0.756055)
+  1 &amp; 1 = 1 (zero:-0.621453 one:0.693405)
 epoch 12
 model says:
-  0 &amp; 0 = 0 (zero:0.338074 one:-0.863696)
-  0 &amp; 1 = 1 (zero:-1.248764 one:1.114185)
-  1 &amp; 0 = 1 (zero:-1.225590 one:1.014824)
-  1 &amp; 1 = 1 (zero:-1.921741 one:1.971619)
+  0 &amp; 0 = 1 (zero:0.054632 one:0.720484)
+  0 &amp; 1 = 1 (zero:-0.374024 one:0.671633)
+  1 &amp; 0 = 1 (zero:-0.399167 one:0.750467)
+  1 &amp; 1 = 1 (zero:-0.693744 one:0.707682)
 epoch 13
 model says:
-  0 &amp; 0 = 0 (zero:0.407480 one:-0.943095)
-  0 &amp; 1 = 1 (zero:-1.303501 one:1.175106)
-  1 &amp; 0 = 1 (zero:-1.280912 one:1.079885)
-  1 &amp; 1 = 1 (zero:-2.004381 one:2.066755)
+  0 &amp; 0 = 1 (zero:0.137468 one:0.671434)
+  0 &amp; 1 = 1 (zero:-0.405804 one:0.664200)
+  1 &amp; 0 = 1 (zero:-0.426929 one:0.750627)
+  1 &amp; 1 = 1 (zero:-0.770972 one:0.734296)
 epoch 14
 model says:
-  0 &amp; 0 = 0 (zero:0.472126 one:-1.016892)
-  0 &amp; 1 = 1 (zero:-1.356079 one:1.233234)
-  1 &amp; 0 = 1 (zero:-1.334060 one:1.141788)
-  1 &amp; 1 = 1 (zero:-2.081327 one:2.154394)
+  0 &amp; 0 = 1 (zero:0.235105 one:0.614842)
+  0 &amp; 1 = 1 (zero:-0.443466 one:0.666243)
+  1 &amp; 0 = 1 (zero:-0.457814 one:0.757759)
+  1 &amp; 1 = 1 (zero:-0.853091 one:0.773432)
 epoch 15
 model says:
-  0 &amp; 0 = 0 (zero:0.532362 one:-1.085512)
-  0 &amp; 1 = 1 (zero:-1.406296 one:1.288465)
-  1 &amp; 0 = 1 (zero:-1.384824 one:1.200460)
-  1 &amp; 1 = 1 (zero:-2.152928 one:2.235214)
+  0 &amp; 0 = 1 (zero:0.344192 one:0.551423)
+  0 &amp; 1 = 1 (zero:-0.488635 one:0.678842)
+  1 &amp; 0 = 1 (zero:-0.493589 one:0.772561)
+  1 &amp; 1 = 1 (zero:-0.939935 one:0.824159)
 epoch 16
 model says:
-  0 &amp; 0 = 0 (zero:0.588558 one:-1.149395)
-  0 &amp; 1 = 1 (zero:-1.454093 one:1.340821)
-  1 &amp; 0 = 1 (zero:-1.433142 one:1.255957)
-  1 &amp; 1 = 1 (zero:-2.219590 one:2.309888)
+  0 &amp; 0 = 1 (zero:0.460040 one:0.482607)
+  0 &amp; 1 = 1 (zero:-0.542229 one:0.702042)
+  1 &amp; 0 = 1 (zero:-0.535683 one:0.795100)
+  1 &amp; 1 = 1 (zero:-1.030521 one:0.884448)
 epoch 17
 model says:
-  0 &amp; 0 = 0 (zero:0.641075 one:-1.208970)
-  0 &amp; 1 = 1 (zero:-1.499501 one:1.390401)
-  1 &amp; 0 = 1 (zero:-1.479042 one:1.308405)
-  1 &amp; 1 = 1 (zero:-2.281732 one:2.379041)
+  0 &amp; 0 = 0 (zero:0.577808 one:0.410338)
+  0 &amp; 1 = 1 (zero:-0.603832 one:0.734822)
+  1 &amp; 0 = 1 (zero:-0.584503 one:0.824759)
+  1 &amp; 1 = 1 (zero:-1.122961 one:0.951441)
 epoch 18
 model says:
-  0 &amp; 0 = 0 (zero:0.690252 one:-1.264648)
-  0 &amp; 1 = 1 (zero:-1.542609 one:1.437344)
-  1 &amp; 0 = 1 (zero:-1.522618 one:1.357981)
-  1 &amp; 1 = 1 (zero:-2.339765 one:2.443251)
+  0 &amp; 0 = 0 (zero:0.693514 one:0.336685)
+  0 &amp; 1 = 1 (zero:-0.671742 one:0.775336)
+  1 &amp; 0 = 1 (zero:-0.639277 one:0.860342)
+  1 &amp; 1 = 1 (zero:-1.214968 one:1.022038)
 epoch 19
 model says:
-  0 &amp; 0 = 0 (zero:0.736402 one:-1.316798)
-  0 &amp; 1 = 1 (zero:-1.583530 one:1.481809)
-  1 &amp; 0 = 1 (zero:-1.563982 one:1.404866)
-  1 &amp; 1 = 1 (zero:-2.394066 one:2.503032)
+  0 &amp; 0 = 0 (zero:0.804439 one:0.263480)
+  0 &amp; 1 = 1 (zero:-0.743569 one:0.821359)
+  1 &amp; 0 = 1 (zero:-0.698405 one:0.900324)
+  1 &amp; 1 = 1 (zero:-1.304500 one:1.093484)
+epoch 20
+model says:
+  0 &amp; 0 = 0 (zero:0.909046 one:0.192137)
+  0 &amp; 1 = 1 (zero:-0.816922 one:0.870733)
+  1 &amp; 0 = 1 (zero:-0.760012 one:0.943142)
+  1 &amp; 1 = 1 (zero:-1.390136 one:1.163721)
 
 ---------
 
 &lt;&lt;XOR: Before learning&gt;&gt;
 model says:
-  0 &amp; 0 = 0 (zero:-0.438200 one:-0.582682)
-  0 &amp; 1 = 0 (zero:-0.348783 one:-0.599064)
-  1 &amp; 0 = 0 (zero:-0.610510 one:-1.026210)
-  1 &amp; 1 = 0 (zero:-0.521252 one:-1.053460)
+  0 &amp; 0 = 1 (zero:0.023782 one:0.335309)
+  0 &amp; 1 = 1 (zero:0.012508 one:0.328062)
+  1 &amp; 0 = 1 (zero:0.022695 one:0.180030)
+  1 &amp; 1 = 1 (zero:0.011845 one:0.186620)
 
 &lt;&lt;XOR: After Learning&gt;&gt;
 epoch 0
 model says:
-  0 &amp; 0 = 1 (zero:-0.599691 one:-0.465636)
-  0 &amp; 1 = 1 (zero:-0.448215 one:-0.377869)
-  1 &amp; 0 = 0 (zero:-0.817076 one:-0.852162)
-  1 &amp; 1 = 0 (zero:-0.681982 one:-0.824394)
+  0 &amp; 0 = 0 (zero:0.252721 one:0.161303)
+  0 &amp; 1 = 1 (zero:0.197365 one:0.258646)
+  1 &amp; 0 = 0 (zero:0.214912 one:0.206242)
+  1 &amp; 1 = 1 (zero:0.171560 one:0.251372)
 epoch 10
 model says:
-  0 &amp; 0 = 0 (zero:1.049314 one:-2.734801)
-  0 &amp; 1 = 1 (zero:-1.851903 one:1.710845)
-  1 &amp; 0 = 1 (zero:-2.953596 one:0.939165)
-  1 &amp; 1 = 0 (zero:1.153668 one:-2.857142)
+  0 &amp; 0 = 0 (zero:2.355837 one:-1.543081)
+  0 &amp; 1 = 1 (zero:-1.181457 one:2.475768)
+  1 &amp; 0 = 1 (zero:-1.180833 one:2.475225)
+  1 &amp; 1 = 0 (zero:1.682071 one:-1.488956)
 epoch 20
 model says:
-  0 &amp; 0 = 0 (zero:1.547684 one:-3.256165)
-  0 &amp; 1 = 1 (zero:-2.330904 one:2.223325)
-  1 &amp; 0 = 1 (zero:-3.465796 one:1.444937)
-  1 &amp; 1 = 0 (zero:1.647371 one:-3.370078)
+  0 &amp; 0 = 0 (zero:2.864623 one:-2.072815)
+  0 &amp; 1 = 1 (zero:-1.714015 one:3.073251)
+  1 &amp; 0 = 1 (zero:-1.713631 one:3.072908)
+  1 &amp; 1 = 0 (zero:2.248761 one:-2.099050)
 epoch 30
 model says:
-  0 &amp; 0 = 0 (zero:1.798872 one:-3.516584)
-  0 &amp; 1 = 1 (zero:-2.575271 one:2.480321)
-  1 &amp; 0 = 1 (zero:-3.721950 one:1.698665)
-  1 &amp; 1 = 0 (zero:1.896564 one:-3.627157)
+  0 &amp; 0 = 0 (zero:3.117040 one:-2.333150)
+  0 &amp; 1 = 1 (zero:-1.972898 one:3.354917)
+  1 &amp; 0 = 1 (zero:-1.972595 one:3.354643)
+  1 &amp; 1 = 0 (zero:2.517467 one:-2.384248)
 epoch 40
 model says:
-  0 &amp; 0 = 0 (zero:1.967253 one:-3.690439)
-  0 &amp; 1 = 1 (zero:-2.739798 one:2.652148)
-  1 &amp; 0 = 1 (zero:-3.893108 one:1.868415)
-  1 &amp; 1 = 0 (zero:2.063681 one:-3.798972)
+  0 &amp; 0 = 0 (zero:3.285377 one:-2.506071)
+  0 &amp; 1 = 1 (zero:-2.144355 one:3.539275)
+  1 &amp; 0 = 1 (zero:-2.144082 one:3.539023)
+  1 &amp; 1 = 0 (zero:2.693813 one:-2.570217)
 epoch 50
 model says:
-  0 &amp; 0 = 0 (zero:2.093879 one:-3.820848)
-  0 &amp; 1 = 1 (zero:-2.863833 one:2.781152)
-  1 &amp; 0 = 1 (zero:-4.021592 one:1.995939)
-  1 &amp; 1 = 0 (zero:2.189383 one:-3.927925)
+  0 &amp; 0 = 0 (zero:3.411678 one:-2.635504)
+  0 &amp; 1 = 1 (zero:-2.272489 one:3.676103)
+  1 &amp; 0 = 1 (zero:-2.272252 one:3.675885)
+  1 &amp; 1 = 0 (zero:2.824980 one:-2.707986)
 epoch 60
 model says:
-  0 &amp; 0 = 0 (zero:2.195321 one:-3.925128)
-  0 &amp; 1 = 1 (zero:-2.963362 one:2.884379)
-  1 &amp; 0 = 1 (zero:-4.124392 one:2.098029)
-  1 &amp; 1 = 0 (zero:2.290099 one:-4.031082)
+  0 &amp; 0 = 0 (zero:3.512730 one:-2.738891)
+  0 &amp; 1 = 1 (zero:-2.374776 one:3.784822)
+  1 &amp; 0 = 1 (zero:-2.374583 one:3.784654)
+  1 &amp; 1 = 0 (zero:2.929305 one:-2.817238)
 epoch 70
 model says:
-  0 &amp; 0 = 0 (zero:2.279922 one:-4.011979)
-  0 &amp; 1 = 1 (zero:-3.046461 one:2.970381)
-  1 &amp; 0 = 1 (zero:-4.210044 one:2.183119)
-  1 &amp; 1 = 0 (zero:2.374104 one:-4.117022)
+  0 &amp; 0 = 0 (zero:3.596936 one:-2.824961)
+  0 &amp; 1 = 1 (zero:-2.459854 one:3.874933)
+  1 &amp; 0 = 1 (zero:-2.459673 one:3.874774)
+  1 &amp; 1 = 0 (zero:3.015934 one:-2.907764)
 epoch 80
 model says:
-  0 &amp; 0 = 0 (zero:2.352456 one:-4.086381)
-  0 &amp; 1 = 1 (zero:-3.117788 one:3.044079)
-  1 &amp; 0 = 1 (zero:-4.283420 one:2.256013)
-  1 &amp; 1 = 0 (zero:2.446136 one:-4.190664)
+  0 &amp; 0 = 0 (zero:3.669070 one:-2.898659)
+  0 &amp; 1 = 1 (zero:-2.532747 one:3.951919)
+  1 &amp; 0 = 1 (zero:-2.532516 one:3.951694)
+  1 &amp; 1 = 0 (zero:3.089944 one:-2.984970)
 epoch 90
 model says:
-  0 &amp; 0 = 0 (zero:2.415941 one:-4.151406)
-  0 &amp; 1 = 1 (zero:-3.180244 one:3.108529)
-  1 &amp; 0 = 1 (zero:-4.347600 one:2.319826)
-  1 &amp; 1 = 0 (zero:2.509179 one:-4.255026)
+  0 &amp; 0 = 0 (zero:3.732236 one:-2.962987)
+  0 &amp; 1 = 1 (zero:-2.596370 one:4.019001)
+  1 &amp; 0 = 1 (zero:-2.596186 one:4.018829)
+  1 &amp; 1 = 0 (zero:3.154525 one:-3.052231)
 epoch 100
 model says:
-  0 &amp; 0 = 0 (zero:2.472386 one:-4.209259)
-  0 &amp; 1 = 1 (zero:-3.235789 one:3.165775)
-  1 &amp; 0 = 1 (zero:-4.404605 one:2.376430)
-  1 &amp; 1 = 0 (zero:2.565238 one:-4.312308)
+  0 &amp; 0 = 0 (zero:3.788352 one:-3.020221)
+  0 &amp; 1 = 1 (zero:-2.652841 one:4.078386)
+  1 &amp; 0 = 1 (zero:-2.652754 one:4.078329)
+  1 &amp; 1 = 0 (zero:3.211836 one:-3.111850)
 epoch 110
 model says:
-  0 &amp; 0 = 0 (zero:2.523153 one:-4.261082)
-  0 &amp; 1 = 1 (zero:-3.285829 one:3.217304)
-  1 &amp; 0 = 1 (zero:-4.455925 one:2.427582)
-  1 &amp; 1 = 0 (zero:2.615660 one:-4.363620)
+  0 &amp; 0 = 0 (zero:3.838835 one:-3.071766)
+  0 &amp; 1 = 1 (zero:-2.703644 one:4.131693)
+  1 &amp; 0 = 1 (zero:-2.703587 one:4.131671)
+  1 &amp; 1 = 0 (zero:3.263312 one:-3.165340)
 epoch 120
 model says:
-  0 &amp; 0 = 0 (zero:2.569330 one:-4.308264)
-  0 &amp; 1 = 1 (zero:-3.331340 one:3.264125)
-  1 &amp; 0 = 1 (zero:-4.502463 one:2.473959)
-  1 &amp; 1 = 0 (zero:2.661522 one:-4.410340)
+  0 &amp; 0 = 0 (zero:3.884711 one:-3.118302)
+  0 &amp; 1 = 1 (zero:-2.749834 one:4.180253)
+  1 &amp; 0 = 1 (zero:-2.749749 one:4.180194)
+  1 &amp; 1 = 0 (zero:3.310022 one:-3.213820)
 epoch 130
 model says:
-  0 &amp; 0 = 0 (zero:2.611671 one:-4.351535)
-  0 &amp; 1 = 1 (zero:-3.373025 one:3.306984)
-  1 &amp; 0 = 1 (zero:-4.545214 one:2.516385)
-  1 &amp; 1 = 0 (zero:2.703552 one:-4.453165)
+  0 &amp; 0 = 0 (zero:3.926759 one:-3.161220)
+  0 &amp; 1 = 1 (zero:-2.792181 one:4.224601)
+  1 &amp; 0 = 1 (zero:-2.792098 one:4.224545)
+  1 &amp; 1 = 0 (zero:3.352775 one:-3.258162)
 epoch 140
 model says:
-  0 &amp; 0 = 0 (zero:2.650661 one:-4.391407)
-  0 &amp; 1 = 1 (zero:-3.411574 one:3.346588)
-  1 &amp; 0 = 1 (zero:-4.584638 one:2.555646)
-  1 &amp; 1 = 0 (zero:2.742274 one:-4.492649)
+  0 &amp; 0 = 0 (zero:3.965505 one:-3.200694)
+  0 &amp; 1 = 1 (zero:-2.831228 one:4.265338)
+  1 &amp; 0 = 1 (zero:-2.831126 one:4.265256)
+  1 &amp; 1 = 0 (zero:3.392245 one:-3.299092)
 epoch 150
 model says:
-  0 &amp; 0 = 0 (zero:2.686943 one:-4.428357)
-  0 &amp; 1 = 1 (zero:-3.447309 one:3.383275)
-  1 &amp; 0 = 1 (zero:-4.621131 one:2.592117)
-  1 &amp; 1 = 0 (zero:2.778327 one:-4.529266)
+  0 &amp; 0 = 0 (zero:4.001611 one:-3.237160)
+  0 &amp; 1 = 1 (zero:-2.867387 one:4.303310)
+  1 &amp; 0 = 1 (zero:-2.867232 one:4.303163)
+  1 &amp; 1 = 0 (zero:3.428878 one:-3.337033)
 epoch 160
 model says:
-  0 &amp; 0 = 0 (zero:2.720892 one:-4.463015)
-  0 &amp; 1 = 1 (zero:-3.480613 one:3.417458)
-  1 &amp; 0 = 1 (zero:-4.655140 one:2.625978)
-  1 &amp; 1 = 0 (zero:2.812045 one:-4.563597)
+  0 &amp; 0 = 0 (zero:4.035170 one:-3.271477)
+  0 &amp; 1 = 1 (zero:-2.901296 one:4.338658)
+  1 &amp; 0 = 1 (zero:-2.901157 one:4.338528)
+  1 &amp; 1 = 0 (zero:3.462900 one:-3.372257)
 epoch 170
 model says:
-  0 &amp; 0 = 0 (zero:2.752470 one:-4.495179)
-  0 &amp; 1 = 1 (zero:-3.512035 one:3.449693)
-  1 &amp; 0 = 1 (zero:-4.687191 one:2.657932)
-  1 &amp; 1 = 0 (zero:2.843426 one:-4.595470)
+  0 &amp; 0 = 0 (zero:4.066764 one:-3.303668)
+  0 &amp; 1 = 1 (zero:-2.932956 one:4.371642)
+  1 &amp; 0 = 1 (zero:-2.932734 one:4.371411)
+  1 &amp; 1 = 0 (zero:3.494945 one:-3.405422)
 epoch 180
 model says:
-  0 &amp; 0 = 0 (zero:2.782348 one:-4.525870)
-  0 &amp; 1 = 1 (zero:-3.541468 one:3.479855)
-  1 &amp; 0 = 1 (zero:-4.717152 one:2.687528)
-  1 &amp; 1 = 0 (zero:2.873143 one:-4.625923)
+  0 &amp; 0 = 0 (zero:4.096203 one:-3.333570)
+  0 &amp; 1 = 1 (zero:-2.962689 one:4.402650)
+  1 &amp; 0 = 1 (zero:-2.962425 one:4.402368)
+  1 &amp; 1 = 0 (zero:3.525090 one:-3.436610)
 epoch 190
 model says:
-  0 &amp; 0 = 0 (zero:2.810615 one:-4.554430)
-  0 &amp; 1 = 1 (zero:-3.569276 one:3.508361)
-  1 &amp; 0 = 1 (zero:-4.745666 one:2.716184)
-  1 &amp; 1 = 0 (zero:2.901134 one:-4.654116)
+  0 &amp; 0 = 0 (zero:4.124224 one:-3.362121)
+  0 &amp; 1 = 1 (zero:-2.990961 one:4.432053)
+  1 &amp; 0 = 1 (zero:-2.990654 one:4.431717)
+  1 &amp; 1 = 0 (zero:3.553351 one:-3.465826)
 epoch 200
 model says:
-  0 &amp; 0 = 0 (zero:2.837333 one:-4.581599)
-  0 &amp; 1 = 1 (zero:-3.595547 one:3.535272)
-  1 &amp; 0 = 1 (zero:-4.772432 one:2.742891)
-  1 &amp; 1 = 0 (zero:2.927780 one:-4.681149)
+  0 &amp; 0 = 0 (zero:4.150614 one:-3.388665)
+  0 &amp; 1 = 1 (zero:-3.017757 one:4.460222)
+  1 &amp; 0 = 1 (zero:-3.017342 one:4.459757)
+  1 &amp; 1 = 0 (zero:3.580010 one:-3.493366)
 epoch 210
 model says:
-  0 &amp; 0 = 0 (zero:2.862676 one:-4.607547)
-  0 &amp; 1 = 1 (zero:-3.620594 one:3.560930)
-  1 &amp; 0 = 1 (zero:-4.798060 one:2.768270)
-  1 &amp; 1 = 0 (zero:2.952817 one:-4.706709)
+  0 &amp; 0 = 0 (zero:4.175663 one:-3.414554)
+  0 &amp; 1 = 1 (zero:-3.043068 one:4.486141)
+  1 &amp; 0 = 1 (zero:-3.042582 one:4.485589)
+  1 &amp; 1 = 0 (zero:3.605596 one:-3.519848)
 epoch 220
 model says:
-  0 &amp; 0 = 0 (zero:2.886704 one:-4.631985)
-  0 &amp; 1 = 1 (zero:-3.644508 one:3.585394)
-  1 &amp; 0 = 1 (zero:-4.822439 one:2.792582)
-  1 &amp; 1 = 0 (zero:2.976825 one:-4.731078)
+  0 &amp; 0 = 0 (zero:4.199754 one:-3.439203)
+  0 &amp; 1 = 1 (zero:-3.067118 one:4.510982)
+  1 &amp; 0 = 1 (zero:-3.066724 one:4.510540)
+  1 &amp; 1 = 0 (zero:3.629801 one:-3.544883)
 epoch 230
 model says:
-  0 &amp; 0 = 0 (zero:2.909726 one:-4.655538)
-  0 &amp; 1 = 1 (zero:-3.667319 one:3.608735)
-  1 &amp; 0 = 1 (zero:-4.845680 one:2.815623)
-  1 &amp; 1 = 0 (zero:2.999600 one:-4.754308)
+  0 &amp; 0 = 0 (zero:4.222878 one:-3.461968)
+  0 &amp; 1 = 1 (zero:-3.089897 one:4.535341)
+  1 &amp; 0 = 1 (zero:-3.089432 one:4.534815)
+  1 &amp; 1 = 0 (zero:3.653117 one:-3.568905)
 epoch 240
 model says:
-  0 &amp; 0 = 0 (zero:2.931727 one:-4.677931)
-  0 &amp; 1 = 1 (zero:-3.689113 one:3.631036)
-  1 &amp; 0 = 1 (zero:-4.867886 one:2.837751)
-  1 &amp; 1 = 0 (zero:3.021583 one:-4.776640)
+  0 &amp; 0 = 0 (zero:4.244557 one:-3.484816)
+  0 &amp; 1 = 1 (zero:-3.111873 one:4.557385)
+  1 &amp; 0 = 1 (zero:-3.111531 one:4.557005)
+  1 &amp; 1 = 0 (zero:3.675227 one:-3.591717)
+epoch 250
+model says:
+  0 &amp; 0 = 0 (zero:4.266097 one:-3.506453)
+  0 &amp; 1 = 1 (zero:-3.133177 one:4.579776)
+  1 &amp; 0 = 1 (zero:-3.132804 one:4.579359)
+  1 &amp; 1 = 0 (zero:3.696101 one:-3.613172)
 </pre>
 </div>
 </div>
@@ -13528,7 +13596,7 @@ model says:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
@@ -13561,7 +13629,7 @@ model says:
         <span class="n">accuracy</span> <span class="o">=</span> <span class="n">chainer</span><span class="o">.</span><span class="n">functions</span><span class="o">.</span><span class="n">accuracy</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
         <span class="n">error</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
         <span class="n">optimizer</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
-        <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0 or epoch==999:
+        <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0:
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39; </span><span class="si">%d</span><span class="s1"> &amp; </span><span class="si">%d</span><span class="s1"> = </span><span class="si">%d</span><span class="s1"> (zero:</span><span class="si">%f</span><span class="s1"> one:</span><span class="si">%f</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span> <span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">argmax</span><span class="p">(),</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]))</span>
         <span class="c1">#print(&quot;error: {}&quot;.format(error.data[0]))</span>
         <span class="c1">#print(&quot;accuracy: {}&quot;.format(accuracy.data))</span>
@@ -13586,7 +13654,7 @@ model says:
         <span class="n">accuracy</span> <span class="o">=</span> <span class="n">chainer</span><span class="o">.</span><span class="n">functions</span><span class="o">.</span><span class="n">accuracy</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
         <span class="n">error</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
         <span class="n">optimizer</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
-        <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0 or epoch==999:
+        <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0:
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39; </span><span class="si">%d</span><span class="s1"> &amp; </span><span class="si">%d</span><span class="s1"> = </span><span class="si">%d</span><span class="s1"> (zero:</span><span class="si">%f</span><span class="s1"> one:</span><span class="si">%f</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span> <span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">argmax</span><span class="p">(),</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]))</span>
 
 <span class="k">class</span> <span class="nc">RegressionModel</span><span class="p">(</span><span class="n">chainer</span><span class="o">.</span><span class="n">Chain</span><span class="p">):</span>
@@ -13608,7 +13676,7 @@ model says:
         <span class="n">error</span> <span class="o">=</span> <span class="n">chainer</span><span class="o">.</span><span class="n">functions</span><span class="o">.</span><span class="n">mean_squared_error</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
         <span class="n">error</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
         <span class="n">optimizer</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
-        <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0 or epoch==999:
+        <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0:
                 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x: </span><span class="si">{}</span><span class="s1">  h: </span><span class="si">{}</span><span class="s1">)&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">h</span><span class="o">.</span><span class="n">data</span><span class="p">))</span>
 
 
@@ -13640,8 +13708,8 @@ model says:
     <span class="p">[</span><span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]),</span> <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">])],</span>
 <span class="p">]</span>
 
-<span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0 or epoch==999:
+<span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1001</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">epoch</span><span class="o">%</span><span class="k">100</span>==0:
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;epoch: </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">epoch</span>)
     <span class="k">for</span> <span class="n">invec</span><span class="p">,</span> <span class="n">outvec</span> <span class="ow">in</span> <span class="n">data_xor</span><span class="p">:</span>
         <span class="n">model</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">invec</span><span class="p">,</span> <span class="n">outvec</span><span class="p">,</span> <span class="n">epoch</span><span class="p">)</span>
@@ -13660,60 +13728,60 @@ model says:
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>epoch: 0
- 0 &amp; 0 = 1 (zero:-1.205966 one:0.337058)
- 0 &amp; 1 = 1 (zero:-1.092627 one:0.263118)
- 1 &amp; 0 = 1 (zero:-1.047759 one:0.270311)
- 1 &amp; 1 = 1 (zero:-0.959121 one:0.211429)
+ 0 &amp; 0 = 1 (zero:-0.633688 one:-0.100368)
+ 0 &amp; 1 = 1 (zero:-0.417933 one:-0.074204)
+ 1 &amp; 0 = 1 (zero:-0.808788 one:-0.135816)
+ 1 &amp; 1 = 1 (zero:-0.605263 one:-0.095210)
 epoch: 100
- 0 &amp; 0 = 1 (zero:-0.439267 one:-0.359670)
- 0 &amp; 1 = 0 (zero:-0.384131 one:-0.393146)
- 1 &amp; 0 = 0 (zero:-0.363448 one:-0.371741)
- 1 &amp; 1 = 0 (zero:-0.327095 one:-0.389868)
+ 0 &amp; 0 = 1 (zero:-0.326820 one:-0.293541)
+ 0 &amp; 1 = 0 (zero:-0.134542 one:-0.219506)
+ 1 &amp; 0 = 1 (zero:-0.433262 one:-0.367726)
+ 1 &amp; 1 = 0 (zero:-0.229131 one:-0.270596)
 epoch: 200
- 0 &amp; 0 = 1 (zero:-0.419254 one:-0.369142)
- 0 &amp; 1 = 0 (zero:-0.385922 one:-0.397313)
- 1 &amp; 0 = 0 (zero:-0.370071 one:-0.374471)
- 1 &amp; 1 = 0 (zero:-0.352119 one:-0.387945)
+ 0 &amp; 0 = 1 (zero:-0.280867 one:-0.229041)
+ 0 &amp; 1 = 0 (zero:-0.072680 one:-0.145227)
+ 1 &amp; 0 = 1 (zero:-0.395795 one:-0.325453)
+ 1 &amp; 1 = 0 (zero:-0.134053 one:-0.215814)
 epoch: 300
- 0 &amp; 0 = 1 (zero:-0.405252 one:-0.366338)
- 0 &amp; 1 = 0 (zero:-0.381155 one:-0.393354)
- 1 &amp; 0 = 0 (zero:-0.365444 one:-0.367971)
- 1 &amp; 1 = 0 (zero:-0.354341 one:-0.380669)
+ 0 &amp; 0 = 1 (zero:-0.201661 one:-0.155335)
+ 0 &amp; 1 = 0 (zero:0.008454 one:-0.068827)
+ 1 &amp; 0 = 1 (zero:-0.415076 one:-0.274094)
+ 1 &amp; 1 = 0 (zero:-0.011468 one:-0.183063)
 epoch: 400
- 0 &amp; 0 = 1 (zero:-0.391867 one:-0.355974)
- 0 &amp; 1 = 0 (zero:-0.372624 one:-0.383777)
- 1 &amp; 0 = 0 (zero:-0.353035 one:-0.354418)
- 1 &amp; 1 = 0 (zero:-0.343028 one:-0.368500)
+ 0 &amp; 0 = 0 (zero:0.002664 one:-0.155021)
+ 0 &amp; 1 = 1 (zero:0.022019 one:0.036029)
+ 1 &amp; 0 = 1 (zero:-0.623584 one:-0.163480)
+ 1 &amp; 1 = 0 (zero:0.216335 one:-0.253472)
 epoch: 500
- 0 &amp; 0 = 1 (zero:-0.375813 one:-0.338010)
- 0 &amp; 1 = 0 (zero:-0.360934 one:-0.368530)
- 1 &amp; 0 = 1 (zero:-0.333003 one:-0.332660)
- 1 &amp; 1 = 0 (zero:-0.319357 one:-0.350791)
+ 0 &amp; 0 = 0 (zero:0.498255 one:-0.481410)
+ 0 &amp; 1 = 1 (zero:-0.339428 one:0.400410)
+ 1 &amp; 0 = 1 (zero:-1.142420 one:0.125730)
+ 1 &amp; 1 = 0 (zero:0.681126 one:-0.606799)
 epoch: 600
- 0 &amp; 0 = 1 (zero:-0.352554 one:-0.309283)
- 0 &amp; 1 = 1 (zero:-0.346725 one:-0.345353)
- 1 &amp; 0 = 1 (zero:-0.304351 one:-0.297884)
- 1 &amp; 1 = 0 (zero:-0.278357 one:-0.325865)
+ 0 &amp; 0 = 0 (zero:0.991525 one:-0.896079)
+ 0 &amp; 1 = 1 (zero:-0.800148 one:0.845367)
+ 1 &amp; 0 = 1 (zero:-1.625541 one:0.478442)
+ 1 &amp; 1 = 0 (zero:1.145294 one:-1.013815)
 epoch: 700
- 0 &amp; 0 = 1 (zero:-0.310521 one:-0.264764)
- 0 &amp; 1 = 1 (zero:-0.338611 one:-0.307379)
- 1 &amp; 0 = 1 (zero:-0.272746 one:-0.237777)
- 1 &amp; 1 = 0 (zero:-0.203538 one:-0.295101)
+ 0 &amp; 0 = 0 (zero:1.313127 one:-1.182407)
+ 0 &amp; 1 = 1 (zero:-1.108507 one:1.145876)
+ 1 &amp; 0 = 1 (zero:-1.940682 one:0.736134)
+ 1 &amp; 1 = 0 (zero:1.453825 one:-1.294385)
 epoch: 800
- 0 &amp; 0 = 0 (zero:-0.198441 one:-0.235323)
- 0 &amp; 1 = 1 (zero:-0.415510 one:-0.222377)
- 1 &amp; 0 = 1 (zero:-0.311638 one:-0.113202)
- 1 &amp; 1 = 0 (zero:-0.045245 one:-0.304964)
+ 0 &amp; 0 = 0 (zero:1.532452 one:-1.382041)
+ 0 &amp; 1 = 1 (zero:-1.319680 one:1.352651)
+ 1 &amp; 0 = 1 (zero:-2.156660 one:0.920995)
+ 1 &amp; 1 = 0 (zero:1.666341 one:-1.490663)
 epoch: 900
- 0 &amp; 0 = 0 (zero:0.182115 one:-0.461004)
- 0 &amp; 1 = 1 (zero:-0.834678 one:0.067923)
- 1 &amp; 0 = 1 (zero:-0.678686 one:0.225060)
- 1 &amp; 1 = 0 (zero:0.346872 one:-0.570047)
-epoch: 999
- 0 &amp; 0 = 0 (zero:0.687700 one:-0.880465)
- 0 &amp; 1 = 1 (zero:-1.357773 one:0.486379)
- 1 &amp; 0 = 1 (zero:-1.174620 one:0.669500)
- 1 &amp; 1 = 0 (zero:0.833909 one:-0.990762)
+ 0 &amp; 0 = 0 (zero:1.694982 one:-1.531747)
+ 0 &amp; 1 = 1 (zero:-1.476404 one:1.506530)
+ 1 &amp; 0 = 1 (zero:-2.317225 one:1.061764)
+ 1 &amp; 1 = 0 (zero:1.824664 one:-1.638195)
+epoch: 1000
+ 0 &amp; 0 = 0 (zero:1.822858 one:-1.650439)
+ 0 &amp; 1 = 1 (zero:-1.599829 one:1.627932)
+ 1 &amp; 0 = 1 (zero:-2.443829 one:1.174423)
+ 1 &amp; 1 = 0 (zero:1.949632 one:-1.755343)
 </pre>
 </div>
 </div>
